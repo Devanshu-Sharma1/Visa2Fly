@@ -1,0 +1,45 @@
+.team-section {
+    padding: 3rem 0;
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 0.25rem 0.25rem 0 0;
+  }
+  
+  .card-body {
+    padding: 1.25rem;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #6c757d;
+  }
+  
+  .social-icons i {
+    font-size: 1.25rem;
+  }
+  
+  .text-success {
+    color: #28a745 !important;
+  }
+  
+  .me-2 {
+    margin-right: 0.5rem !important;
+  }
+  

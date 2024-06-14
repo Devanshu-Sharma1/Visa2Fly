@@ -1,0 +1,38 @@
+.container {
+    margin-top: 5rem;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  .btn-link {
+    font-size: 1.25rem;
+    text-decoration: none;
+  }
+  
+  .btn-link:hover {
+    text-decoration: underline;
+  }
+  
+  .learn-more {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .learn-more i {
+    margin-left: 0.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .learn-more:hover i {
+    transform: translateX(5px);
+  }
+  

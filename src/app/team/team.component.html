@@ -1,0 +1,23 @@
+<div class="team-section py-5 bg-light">
+  <div class="container text-center">
+    <h5 class="text-success">Team</h5>
+    <h2 class="mb-4">Get Quality Education</h2>
+    <p class="mb-4">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+    <div class="row">
+      <div class="col-md-3 mb-3" *ngFor="let member of teamMembers">
+        <div class="card h-100">
+          <img [src]="member.image" class="card-img-top" alt="{{ member.name }}">
+          <div class="card-body text-center">
+            <h5 class="card-title">{{ member.name }}</h5>
+            <p class="card-text">{{ member.profession }}</p>
+            <div class="social-icons">
+              <a href="#" class="text-secondary me-2"><i class="pi pi-facebook"></i></a>
+              <a href="#" class="text-secondary me-2"><i class="pi pi-instagram"></i></a>
+              <a href="#" class="text-secondary"><i class="pi pi-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
